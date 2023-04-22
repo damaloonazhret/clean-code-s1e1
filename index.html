@@ -1,18 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo App</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="style.css" media="screen">
   </head>
   <body>
     <header class="header">
-      <img class="header-img" src="./eisenhower-matrix.jpg">
-      <a class="header-info" href="https://goal-life.com/page/method/matrix-eisenhower"> Want more details?</a>
+      <figure class="header-logo">
+        <img class="header-img" src="./eisenhower-matrix.jpg" alt="eisenhower-matrix">
+        <figcaption>
+          <h1 class="header-link">
+            <a class="header-info" href="https://goal-life.com/page/method/matrix-eisenhower">
+              Want more details?
+            </a>
+          </h1>
+        </figcaption>
+      </figure>
     </header>
     <main class="main">
       <section class="add-item">
-        <label for="new-task">Add Item</label>
+        <h4 class="add-item-title">
+          <label for="new-task">Add Item</label>
+        </h4>
         <div class="add-item-wrapper">
           <input id="new-task" class="task" type="text">
           <button>Add</button>

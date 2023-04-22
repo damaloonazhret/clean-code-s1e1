@@ -1,3 +1,9 @@
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+}
+
 /* Basic Style */
 body {
   background-color: #f8f8f8;
@@ -19,8 +25,14 @@ body {
   text-align: right;
 }
 
-.header img {
+.header-logo{
   width: 100%;
+  margin: 0;
+}
+
+.header-img {
+  width: 100%;
+  /*min-width: 500px;*/
 }
 
 .header .header-info {
