@@ -5,28 +5,36 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.add-item{
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.header img {
   width: 100%;
 }
 
-.aaa .more-inf {
+.header .header-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-  .aaa {
+  .header {
     text-align: center;
   }
 }
 
-.centered-main-page-element {
+
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -38,7 +46,7 @@ body {
   flex-grow: 1
 }
 
-.task-row-wrapper {
+.add-item-wrapper {
   display: flex;
 }
 
@@ -138,13 +146,13 @@ li > input[type="text"] {
   width: 226px
 }
 
-button.delete img {
+.remove-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.remove-img:hover {
   transform: rotateZ(0);
 }
 
