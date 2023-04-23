@@ -1,4 +1,6 @@
-.logo__link, .task-title, .add-item__title {
+.logo__link,
+.task-title,
+.add-item__title {
   font-size: inherit;
   font-weight: inherit;
   margin: 0;
@@ -47,7 +49,6 @@
 
 }
 
-
 .main {
   display: block;
   width: 500px;
@@ -66,7 +67,7 @@
 
 .todo-list__items {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 
 .todo-list__item,
@@ -75,13 +76,13 @@
 }
 
 .input,
-.button {
+.btn {
   outline: none;
 }
 
-.button {
+.btn {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
@@ -89,8 +90,8 @@
   cursor: pointer;
 }
 
-.button:hover {
-  color: #3a3A3a;
+.btn:hover {
+  color: #3a3a3a;
 }
 
 /* Heading */
@@ -111,8 +112,8 @@
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;

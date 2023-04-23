@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo App</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
@@ -26,8 +26,8 @@
           <label class="add-item__task" for="new-task">Add Item</label>
         </h4>
         <div class="add-item__wrapper">
-          <input id="new-task" class="task text-input_all input" type="text">
-          <button class="button">Add</button>
+          <input class="text-input_all input task" id="new-task" type="text">
+          <button class="btn">Add</button>
         </div>
       </section>
       <section class="todo-list">
@@ -36,18 +36,18 @@
           <li class="todo-list__item">
             <input class="checkbox input" type="checkbox">
             <label class="task label">Pay Bills</label>
-            <input class="task text-input text-input_all input" type="text">
-            <button class="edit button">Edit</button>
-            <button class="delete button">
+            <input class="text-input_all text-input task input" type="text">
+            <button class="edit btn">Edit</button>
+            <button class="delete btn">
               <img class="delete__img" src="./remove.svg" alt="remove">
             </button>
           </li>
           <li class="edit-mode todo-list__item">
             <input class="checkbox input" type="checkbox">
             <label class="task label">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="task text-input text-input_all input">
-            <button class="edit button">Save</button>
-            <button class="delete button">
+            <input class="text-input_all text-input task input" type="text" value="Go Shopping">
+            <button class="edit btn">Save</button>
+            <button class="delete btn">
               <img class="delete__img" src="./remove.svg" alt="remove">
             </button>
           </li>
@@ -59,9 +59,9 @@
           <li class="todo-list__item">
             <input class="checkbox input" type="checkbox" checked>
             <label class="task label">See the Doctor</label>
-            <input type="text" class="task text-input text-input_all input">
-            <button class="edit button">Edit</button>
-            <button class="delete button">
+            <input class="text-input_all text-input task input" type="text" >
+            <button class="edit btn">Edit</button>
+            <button class="delete btn">
               <img class="delete__img" src="./remove.svg" alt="remove">
             </button>
           </li>
