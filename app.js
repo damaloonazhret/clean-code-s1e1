@@ -21,8 +21,8 @@ const createNewTaskElement = function (taskString) {
   checkBox.className = "checkbox input";
   listItem.className = "todo-list__item";
   editInput.className = "text-input_all text-input task input";
-  editButton.className = "edit button";
-  deleteButton.className = "delete button";
+  editButton.className = "edit btn";
+  deleteButton.className = "delete btn";
   deleteButtonImg.className = "delete__img";
 
   checkBox.type = "checkbox";
