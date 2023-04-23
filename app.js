@@ -17,21 +17,21 @@ const createNewTaskElement = function (taskString) {
   label.innerText = taskString;
   editButton.innerText = "Edit";
 
-  label.className = 'task label';
-  checkBox.className = 'checkbox input';
-  listItem.className = 'todo-list__item';
+  label.className = "task label";
+  checkBox.className = "checkbox input";
+  listItem.className = "todo-list__item";
   editInput.className = "text-input_all text-input task input";
   editButton.className = "edit button";
   deleteButton.className = "delete button";
-  deleteButtonImg.className = 'delete__img';
+  deleteButtonImg.className = "delete__img";
 
   checkBox.type = "checkbox";
   editInput.type = "text";
 
-  deleteButtonImg.src = './remove.svg';
+  deleteButtonImg.src = "./remove.svg";
 
 
-  deleteButtonImg.setAttribute('alt', 'remove');
+  deleteButtonImg.setAttribute("alt", "remove");
 
   deleteButton.appendChild(deleteButtonImg);
 
@@ -63,7 +63,7 @@ const editTask = function () {
   const listItem = this.parentNode;
   const label = listItem.querySelector("label");
   const editBtn = listItem.querySelector(".edit");
-  const editInput = listItem.querySelector('input[type=text]');
+  const editInput = listItem.querySelector("input[type=text]");
   const containsClass = listItem.classList.contains("edit-mode");
 
   if (containsClass) {
