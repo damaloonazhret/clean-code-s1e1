@@ -106,6 +106,7 @@ const taskIncomplete = function () {
 };
 
 const ajaxRequest = function () {
+    
 };
 //The glue to hold it all together.
 
